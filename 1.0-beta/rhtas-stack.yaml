@@ -1,0 +1,8 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: Release
+metadata:
+  name: rhtas-stack-1-0-beta
+  namespace: rhtas-tenant
+spec:
+  releasePlan: rhtas-stack-1-0-beta-registry-redhat-io
+  snapshot: rhtas-stack-1-0-beta-vhwxg
